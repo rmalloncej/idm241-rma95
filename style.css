@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+html {
+    box-sizing: border-box;
+    background-color: #FAD6D6;
+    text-align: center;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+
+}
+
+* {
+    font-family: "Calibri";
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+
+    font-family: 'arial';
+
+}
+
+
+#ep_card {
+
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    background-color: #FAF0EA;
+    /*for side-to-side cards:
+  display: inline-block; 
+  float: left;
+  
+  for vertical cards:"
+  display: block;
+  no float.
+  */
+
+
+    border-style: solid;
+
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    font-size: 30px;
+    padding: 0 0 5px 0;
+}
+
+.contents {
+    display: block;
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.contents p {
+
+    margin-top: 1em;
+
+}
+
+#ep_card img {
+
+    max-width: 150px;
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: .5em;
+
+}
+
+.fa-arrow-down {
+    transform: rotate(0deg);
+    transition: transform .25s linear;
+}
+
+.fa-arrow-down.open {
+    transform: rotate(180deg);
+    transition: transform .25s linear;
+}
+
+
+#container img {
+
+    float: right;
+    max-width: 24px;
+    position: relative;
+    bottom: 1.3em;
+    left: .4em;
+}
+
+
+.info {
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 1em;
+
+
+}
+
+
+.info h5,
+.info h3,
+.info p {
+
+    margin-bottom: 1.5em;
+}
+
+
+.info h5,
+h3 {
+
+    color: orangered;
+}
+
+p {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+
+.images img {
+
+    max-width: 500px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
