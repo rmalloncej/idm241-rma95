@@ -85,9 +85,8 @@ h4 {
 #ep_card img {
 
     max-width: 150px;
-    float: left;
     margin-right: 1em;
-    margin-left: 1em;
+    margin-left: .8em;
     margin-top: .5em;
 
 }
@@ -145,10 +144,39 @@ p {
     margin-bottom: .5em;
 }
 
+.hero {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 
 .images img {
 
     max-width: 500px;
     margin-top: .5em;
     margin-bottom: .5em;
+}
+
+.ep_info {
+
+    text-align: left;
+    margin-left: 200px
+}
+
+.ep_info h5 {
+
+
+    color: darkblue;
+}
+
+.ep_info p {
+
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0;
+
 }
